@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="/>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+<style>
+    @font-face {
+    font-family: Alexandria;
+    src: url("fonts/Alexandria-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Alexandria;    
+    direction: rtl;
+    height: 100vh;
+}
+    .fixed-tab {
+    position: fixed;
+    bottom: 0px;
+    z-index: 999999999999999;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+.open-website {
+    height: 100vh;
+    position: relative;
+}
+.container ,.row{
+    height: 100%;
+}
+.open-logo {
+    width: 178px;
+    height: 164px;
+    margin: auto;
+}
+h3 {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #0F0F0F;
+}
+a {
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+.text-center {
+    text-align: center!important;
+}
+.register-card {
+    background: #FFFFFF;
+    box-shadow: 0px 14px 6px rgba(0, 0, 0, 0.01), 0px 8px 5px rgba(0, 0, 0, 0.05), 0px 3px 3px rgba(0, 0, 0, 0.09), 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 85px;
+    display: block;
+}
+.card-image {
+    background-color: #EE8454;
+}
+.card-title {
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.card-title p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #0F0F0F;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-right: 7px;
+}
+</style>
+<body>
+    <div class="fixed-tab">
+        <ul class="d-flex align-items-center justify-content-between">
+           
+            <li><a href="auth.html">تسجيل الدخول</a></li>
+            <li><a href="">تخطي</a></li>
+        </ul>
+    </div>
+    <div class="open-website">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-12">
+              <div class="open-logo">
+                <img src="images/Group 11.png" alt="">
+              </div>
+            </div>
+            <div class="col-12 text-center">
+                <h3>خدمات كتابة الشعر</br>
+                    بالاضافة الى الاستشارات الأدبية</h3>
+            </div>
+            <div class="col-6">
+                <a class="register-card">
+                    <div class="card-image">
+                        <img src="images/nnn.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        <p>باحث عن خدمات الشعر</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6">
+                <a class="register-card">
+                    <div class="card-image">
+                        <img src="images/Mask group (1).png" alt="">
+                    </div>
+                    <div class="card-title">
+                        <p>شاعر ومقدم خدمة</p>
+                    </div>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.6.3.js"></script>
+</body>
+</html>
